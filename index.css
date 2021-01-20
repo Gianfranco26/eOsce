@@ -1,35 +1,51 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #00B0AE;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFF;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 36px;
+  }
 
-.nav-link {
-    color: #FFFFFF;
-    font-family:'Segoe UI'; 
-    margin-left: 20px;
-    font-size:medium;
-    font-weight: lighter;
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-}
-
-.iconosnavegacion{
-    font-size:1.5em !important;
-}
-
-.nav-item{
-    text-align-last: center;
-    color: #FFFFFF;
-}
+  .icononav{
+    font-size:30px;
+    cursor:pointer; 
+    color: #00B0AE;
+    margin-left: 210px;
+  }
 
 .fas{
     margin-left: 20px;
 }
 
-.navbar{
-    background-color: #C4C4C4;
-    margin-bottom: 10px;
-}
-
 .titulos{
-    color: #00B0AE;
+    color: #000000;
     font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .cuerpo{
@@ -37,32 +53,32 @@
     background-color: #f5fffe;
 }
 
-.tiemporeal{
-    text-align: center;
-}
-
 .iconostiemporeal{
-    font-size:2em !important;
+    font-size:1.5em !important;
     color: #585857;
 }
 
-.titulostiemporeal{
-    color: #C4C4C4;
-    margin-bottom: 0px !important;
+.tiemporeal{
+    background-color: rgb(177, 177, 177,0.2);
 }
 
-hr {
-    border-top: 2px solid #C4C4C4 !important;
-}
 
 .vl {
     border-right: 2px solid #C4C4C4;
-    height: 100px;
+    height: 10px;
+    margin-left: 10px;
 }
 
 .vl2 {
     border-right: 1px solid #C4C4C4;
-    height: 50px;
+    height: 10px;
+}
+
+.imagen-card{
+    width: 155px;
+    height: 140px; 
+    background-size: cover !important; 
+    background-position: center center !important;
 }
 
 .card-title{
@@ -83,6 +99,12 @@ hr {
 }
 
 .card-box{
-    background-color: F7F8FA;
-    border: #C4C4C4;
+    background-color: #F7F8FA;
+    border: 1px solid #C4C4C4 !important;
+    width: 157px;
+}
+
+.card-body{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
